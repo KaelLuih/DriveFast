@@ -1,20 +1,13 @@
 package com.example.DriveFast.service;
 
 import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.example.DriveFast.domain.dto.cliente.ClienteResponseDTO;
-import com.example.DriveFast.domain.dto.cliente.ClienteUpdateDTO;
 import com.example.DriveFast.domain.dto.mensagem.MensagemDTO;
 import com.example.DriveFast.domain.dto.veiculo.VeiculoCreateDTO;
 import com.example.DriveFast.domain.dto.veiculo.VeiculoResponseDTO;
 import com.example.DriveFast.domain.dto.veiculo.VeiculoUpdateDTO;
 import com.example.DriveFast.mapper.VeiculoMapper;
-import com.example.DriveFast.model.Cliente;
 import com.example.DriveFast.model.Veiculo;
-import com.example.DriveFast.repository.ClienteRepository;
 import com.example.DriveFast.repository.VeiculoRepository;
 
 import jakarta.persistence.EntityNotFoundException;

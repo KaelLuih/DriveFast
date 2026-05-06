@@ -29,7 +29,7 @@ public class Veiculo {
 
     private String modelo;
 
-    private String placa;
+    private String placa;   
 
     private BigDecimal valorDiaria;
 

@@ -9,6 +9,6 @@ import com.example.DriveFast.model.Veiculo;
 @Repository
 public interface VeiculoRepository extends JpaRepository<Veiculo,Long > {
     
-    List<Veiculo> findByDisponibilidadeTrue();
+    List<Veiculo> findByDisponivelTrue();
 
 }

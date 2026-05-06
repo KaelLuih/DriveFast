@@ -1,6 +1,6 @@
 package com.example.DriveFast.domain.dto.locacao;
 
-public record LocacaoCreateDTO(Long clientId, Long veiculoId,Integer dias) {
+public record LocacaoCreateDTO(Long clienteId, Long veiculoId,Integer dias) {
 
 
 

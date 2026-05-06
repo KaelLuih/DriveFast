@@ -12,11 +12,11 @@ import com.example.DriveFast.model.Locacao;
 public interface LocacaoRepository extends JpaRepository<Locacao, Long>{
 
         @Query("""
-                SELECT l 
-                FROM locacao
-                WHERE l.cliente.id =:clienteId
+                SELECT l
+                FROM Locacao l
+                WHERE l.cliente.id = :clienteId
                 """)
-                List<Locacao> findByClienteId(@Param("id")Long id);
+         List<Locacao> findByClienteId(@Param("clienteId") Long clienteId);
 
 
 }
